@@ -1,59 +1,11 @@
-## Introduction
+Due to changes in the latest version of Raspberry Pi OS (**Bullseye**), the Python Picamera module is no longer compatible with the updated operating system.
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+We are currently in the process of upgrading the Picamera module to work with the latest Raspberry Pi OS.
 
-### What you will make
+In the meantime, we suggest that you continue to use the last **Buster** version of the operating system, which can be downloaded [here](https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2021-05-28/2021-05-07-raspios-buster-armhf.zip), if you are using the Python Picamera module.
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+You can download this image, and then use the [Raspberry Pi Imager](https://www.raspberrypi.com/software/) to write it to your microSD card.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+When choosing the Operating System, select **Use custom**, and then select the image you have downloaded.
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
-
---- collapse ---
----
-title: What you will need
----
-### Hardware
-
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+![Use custom option highlighted from the Operating System drop down menu](images/custom.png)
