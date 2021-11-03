@@ -1,11 +1,11 @@
-Due to changes in the latest version of Raspberry Pi OS (**Bullseye**), the Python Picamera module is no longer compatible with the updated operating system.
+The Python Picamera module is currently not compatible with the latest version of Raspberry Pi OS (called **Bullseye**). 
 
-We are currently in the process of upgrading the Picamera module to work with the latest Raspberry Pi OS.
+Right now we are upgrading the Picamera module to make it work with the Bullseye version of Raspberry Pi OS.
 
-In the meantime, we suggest that you continue to use the last **Buster** version of the operating system, which can be downloaded [here](https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2021-05-28/2021-05-07-raspios-buster-armhf.zip), if you are using the Python Picamera module.
+If you want to use the Python Picamera module in the meantime, we suggest that you continue to use the previous version of Raspberry Pi OS (called **Buster**). [You can download an image of Buster here](https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2021-05-28/2021-05-07-raspios-buster-armhf.zip).
 
-You can download this image, and then use the [Raspberry Pi Imager](https://www.raspberrypi.com/software/) to write it to your microSD card.
+Once you've downloaded Buster, use the [Raspberry Pi Imager](https://www.raspberrypi.com/software/) to write it to a microSD card.
 
-When choosing the Operating System, select **Use custom**, and then select the image you have downloaded.
+Insert the microSD card into your computer, and load the Raspberry Pi Imager, use the Operating System menu, to select **Use custom**, and then select the **Buster** image.
 
 ![Use custom option highlighted from the Operating System drop down menu](images/custom.png)
