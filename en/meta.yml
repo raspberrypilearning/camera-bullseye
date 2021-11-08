@@ -1,0 +1,9 @@
+title: ⚠️ Raspberry Pi Camera Module - Operating System notice 
+hero_image: images/banner.png
+description: How to use Picamera Python module with Raspberry Pi OS
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-11-03"
+steps:
+  - title: Introduction
