@@ -24,7 +24,7 @@ Press 'Enter' again to confirm
 
 ![window with Ok gighlighted for legacy camera support](images/ok.png)
 
-Use the cursor keys to select '<Finish>'/
+Use the cursor keys to select '<Finish>'
 
 ![finish highlighted](images/finish.png)
 
