@@ -1,32 +1,32 @@
-The Python Picamera module is currently not, by default, compatible with the latest version of Raspberry Pi OS (called **Bullseye**).
+El módulo Picamera de Python actualmente no escompatible por defecto con la última versión del sistema operativo Raspberry Pi (llamada **Bullseye**).
 
-To use the Picamera module, you will need to enable legacy support for the camera. <iframe width="560" height="315" src="https://www.youtube.com/embed/E7KPSc_Xr24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+Para usar el módulo Picamera, deberás habilitar el soporte para la cámara. <iframe width="560" height="315" src="https://www.youtube.com/embed/E7KPSc_Xr24" title="Reproductor de video de YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
 
-Open a terminal window and type the following command:
+Abre una ventana de terminal y escribe el siguiente comando:
 
 ```bash
 sudo raspi-config
 ```
 
-Use the cursor keys to scroll down to `Interface Options` and press the 'Enter' key.
+Usa las teclas del cursor para desplazarte hacia abajo hasta `Interface Options` y presiona la tecla 'Intro'.
 
-![interface options selected](images/interface-options.png)
+![interface Options seleccionado](images/interface-options.png)
 
-Make sure 'Legacy Camera Enable/disable legacy camera support' is selected and press the 'Enter' key.
+Asegúrate de que 'Legacy Camera Enable/disable legacy camera support' esté seleccionado y presiona la tecla 'Intro'.
 
-![legacy camera selected](images/enable-legacy.png)
+![legacy camera seleccionada](images/enable-legacy.png)
 
-Use the cursor keys to select `<Yes>` and press the 'Enter' key
+Usa las teclas del cursor para seleccionar `<Yes>` y presiona la tecla 'Intro'
 
-Press 'Enter' again to confirm
+Presione 'Intro' nuevamente para confirmar
 
-![window with Ok highlighted for legacy camera support](images/ok.png)
+![ventana con Aceptar resaltado para legacy camera support](images/ok.png)
 
-Use the cursor keys to select `<Finish>`
+Usa las teclas del cursor para seleccionar `<Finish>`
 
-![finish highlighted](images/finish.png)
+![finish resaltado](images/finish.png)
 
-Press 'Enter' to reboot.
+Presiona 'Intro' para reiniciar.
 
-![restart selected](images/reboot.png)
+![reiniciar seleccionado](images/reboot.png)
 
