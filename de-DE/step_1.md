@@ -1,6 +1,8 @@
 Das Python-Picamera-Modul ist derzeit standardmäßig nicht mit der neuesten Version von Raspberry Pi OS (genannt **Bullseye**) kompatibel.
 
-Um das Picamera-Modul verwenden zu können, musst du die Legacy-Unterstützung für die Kamera aktivieren. <iframe width="560" height="315" src="https://www.youtube.com/embed/E7KPSc_Xr24" title="YouTube-Videoplayer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+Um das Picamera-Modul verwenden zu können, musst du die Legacy-Unterstützung für die Kamera aktivieren. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/E7KPSc_Xr24" title="YouTube-Videoplayer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
 
 Öffne ein Terminalfenster und führe den folgenden Befehl aus:
 
