@@ -1,0 +1,10 @@
+---
+title: '⚠️ Модуль камеры Raspberry Pi — уведомление Операционной Системы'
+hero_image: images/banner.png
+description: Как использовать модуль Python Picamera с ОС Raspberry Pi
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-11-03"
+steps:
+  - title: Введение
