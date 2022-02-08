@@ -1,32 +1,32 @@
-The Python Picamera module is currently not, by default, compatible with the latest version of Raspberry Pi OS (called **Bullseye**).
+Модуль Python Picamera в настоящее время по умолчанию не совместим с последней версией ОС Raspberry Pi (называется **Bullseye**).
 
-To use the Picamera module, you will need to enable legacy support for the camera. <iframe width="560" height="315" src="https://www.youtube.com/embed/E7KPSc_Xr24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+Чтобы использовать модуль Picamera, тебе необходимо включить устаревшую поддержку камеры. <iframe width="560" height="315" src="https://www.youtube.com/embed/E7KPSc_Xr24" title="Видеопроигрыватель YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
 
-Open a terminal window and type the following command:
+Открой окно терминала и введи следующую команду:
 
 ```bash
 sudo raspi-config
 ```
 
-Use the cursor keys to scroll down to `Interface Options` and press the 'Enter' key.
+С помощью клавиш управления курсором прокрути вниз до `Параметры Интерфейса` и нажми клавишу «Ввод».
 
-![interface options selected](images/interface-options.png)
+![выбраны параметры интерфейса](images/interface-options.png)
 
-Make sure 'Legacy Camera Enable/disable legacy camera support' is selected and press the 'Enter' key.
+Убедись, что выбран вариант «Включить/отключить поддержку устаревших камер», и нажми клавишу «Ввод».
 
-![legacy camera selected](images/enable-legacy.png)
+![выбрана устаревшая камера](images/enable-legacy.png)
 
-Use the cursor keys to select `<Yes>` and press the 'Enter' key
+Используй клавиши управления курсором, чтобы выбрать `<Yes>` и нажми клавишу «Ввод»
 
-Press 'Enter' again to confirm
+Нажми «Ввод» еще раз, чтобы подтвердить
 
-![window with Ok highlighted for legacy camera support](images/ok.png)
+![окно с выделенным Ok для поддержки устаревшей камеры](images/ok.png)
 
-Use the cursor keys to select `<Finish>`
+Используй клавиши управления курсором, чтобы выбрать `<Finish>`
 
-![finish highlighted](images/finish.png)
+![финиш подсвечен](images/finish.png)
 
-Press 'Enter' to reboot.
+Нажми «Ввод» для перезагрузки.
 
-![restart selected](images/reboot.png)
+![перезагрузить подсвечено](images/reboot.png)
 
