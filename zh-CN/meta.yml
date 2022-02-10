@@ -1,11 +1,11 @@
 ---
-title: '⚠️ Raspberry Pi Camera Module - Operating System notice'
+title: '⚠️ Raspberry Pi 摄像头模块 - 关于操作系统的通知'
 hero_image: images/banner.png
-description: How to use Picamera Python module with Raspberry Pi OS
+description: 如何在 Raspberry Pi OS 中使用 Picamera Python 模块
 version: 4
 listed: false
 copyedit: false
 last_tested: "2021-11-03"
 steps:
   - 
-    title: Introduction
+    title: 介绍
