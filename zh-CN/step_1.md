@@ -1,32 +1,32 @@
-The Python Picamera module is currently not, by default, compatible with the latest version of Raspberry Pi OS (called **Bullseye**).
+默认情况下，Python里的Picamera 模块目前是不兼容最新版本的 Raspberry Pi 操作系统（称为 **Bullseye**）。
 
-To use the Picamera module, you will need to enable legacy support for the camera. <iframe width="560" height="315" src="https://www.youtube.com/embed/E7KPSc_Xr24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+要使用 Picamera 模块，您将需要启用对摄像头的旧版支持。 <iframe width="560" height="315" src="https://www.youtube.com/embed/E7KPSc_Xr24" title="YouTube 视频播放器" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
 
-Open a terminal window and type the following command:
+打开一个终端窗口，然后输入以下命令：
 
 ```bash
 sudo raspi-config
 ```
 
-Use the cursor keys to scroll down to `Interface Options` and press the 'Enter' key.
+使用光标键向下滚动到 `Interface Options` ，然后按“Enter”键。
 
-![interface options selected](images/interface-options.png)
+![选择"Interface Options"的图片](images/interface-options.png)
 
-Make sure 'Legacy Camera Enable/disable legacy camera support' is selected and press the 'Enter' key.
+确定选中“Legacy Camera  Enable/disable legacy camera support”，然后按“Enter”键。
 
-![legacy camera selected](images/enable-legacy.png)
+![选择"Legacy Camera"的图片](images/enable-legacy.png)
 
-Use the cursor keys to select `<Yes>` and press the 'Enter' key
+使用光标键选择 `<Yes>`Yes</0>，并按“Enter”键
 
-Press 'Enter' again to confirm
+再次按“Enter”确认
 
-![window with Ok highlighted for legacy camera support](images/ok.png)
+![旧相机模式已启用并高亮了 “Ok” 的确认界面的图片](images/ok.png)
 
-Use the cursor keys to select `<Finish>`
+使用光标键选择 `<Finish>`Finish</0>
 
-![finish highlighted](images/finish.png)
+![高亮了“Finish”的图片](images/finish.png)
 
-Press 'Enter' to reboot.
+按“Enter”重新启动。
 
-![restart selected](images/reboot.png)
+![确认重启动的界面的图片](images/reboot.png)
 
