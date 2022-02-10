@@ -16,13 +16,13 @@ sudo raspi-config
 
 ![选择"Legacy Camera"的图片](images/enable-legacy.png)
 
-使用光标键选择 `<Yes>`Yes</0>，并按“Enter”键
+使用光标键选择 `<Yes>`，并按“Enter”键
 
 再次按“Enter”确认
 
 ![旧相机模式已启用并高亮了 “Ok” 的确认界面的图片](images/ok.png)
 
-使用光标键选择 `<Finish>`Finish</0>
+使用光标键选择 `<Finish>`
 
 ![高亮了“Finish”的图片](images/finish.png)
 
