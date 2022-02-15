@@ -1,32 +1,32 @@
-The Python Picamera module is currently not, by default, compatible with the latest version of Raspberry Pi OS (called **Bullseye**).
+Python Picamera 모듈은 현재 기본적으로 최신 버전의 Raspberry Pi OS (**Bullseye**이라고 함)와 호환되지 않습니다.
 
-To use the Picamera module, you will need to enable legacy support for the camera. <iframe width="560" height="315" src="https://www.youtube.com/embed/E7KPSc_Xr24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+Picamera 모듈을 사용하려면 카메라에 대한 레거시 지원을 활성화 하셔야 합니다. <iframe width="560" height="315" src="https://www.youtube.com/embed/E7KPSc_Xr24" title="YouTube 비디오 플레이어" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
 
-Open a terminal window and type the following command:
+터미널 창을 열고 다음 명령어를 입력하세요:
 
 ```bash
 sudo raspi-config
 ```
 
-Use the cursor keys to scroll down to `Interface Options` and press the 'Enter' key.
+커서 키를 사용하여 `Interface Options(인터페이스 옵션)` 까지 아래로 스크롤하고 'Enter' 키를 눌러주세요.
 
-![interface options selected](images/interface-options.png)
+![선택한 인터페이스 옵션](images/interface-options.png)
 
-Make sure 'Legacy Camera Enable/disable legacy camera support' is selected and press the 'Enter' key.
+'레거시 카메라 활성화/비활성화 레거시 카메라 지원' 이 선택되어 있는지 확인하고 'Enter' 키를 눌러주세요.
 
-![legacy camera selected](images/enable-legacy.png)
+![선택된 레거시 카메라](images/enable-legacy.png)
 
-Use the cursor keys to select `<Yes>` and press the 'Enter' key
+커서 키를 사용하여 `<Yes>` 를 선택하고 'Enter' 키를 눌러주세요.
 
-Press 'Enter' again to confirm
+다시 'Enter'를 눌러 확인해 주세요.
 
-![window with Ok highlighted for legacy camera support](images/ok.png)
+![레거시 카메라 지원을 위해 확인이 강조되어 표시된 창](images/ok.png)
 
-Use the cursor keys to select `<Finish>`
+커서 키를 사용하여 `<Finish>`를 선택하세요.
 
-![finish highlighted](images/finish.png)
+![강조 표시된 완료 버튼](images/finish.png)
 
-Press 'Enter' to reboot.
+'Enter'를 눌러 재부팅 하세요.
 
-![restart selected](images/reboot.png)
+![재부팅 선택](images/reboot.png)
 
