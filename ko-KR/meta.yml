@@ -1,0 +1,10 @@
+---
+title: '⚠️ Raspberry Pi 카메라 모듈 - 운영 체제 관련 공지'
+hero_image: images/banner.png
+description: Raspberry Pi OS 에서 Picamera Python 모듈을 사용하는 방법
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-11-03"
+steps:
+  - title: 소개
