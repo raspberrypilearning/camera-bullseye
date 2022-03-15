@@ -1,32 +1,32 @@
-The Python Picamera module is currently not, by default, compatible with the latest version of Raspberry Pi OS (called **Bullseye**).
+Python Picamera モジュールは現在、デフォルトの状態では最新バージョンの Raspberry Pi OS (**Bullseye** と呼ばれます) と互換性がありません。
 
-To use the Picamera module, you will need to enable legacy support for the camera. <iframe width="560" height="315" src="https://www.youtube.com/embed/E7KPSc_Xr24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+Picamera モジュールを使用する場合には、カメラのレガシーサポートを有効にする必要があります。 <iframe width="560" height="315" src="https://www.youtube.com/embed/E7KPSc_Xr24" title="YouTube ビデオプレーヤー" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
 
-Open a terminal window and type the following command:
+ターミナルウィンドウを開き、次のコマンドを入力します:
 
 ```bash
 sudo raspi-config
 ```
 
-Use the cursor keys to scroll down to `Interface Options` and press the 'Enter' key.
+カーソルキーで `Interface Options` を選択し、 'Enter' キーを押します。
 
-![interface options selected](images/interface-options.png)
+![interface options が選択された状態](images/interface-options.png)
 
-Make sure 'Legacy Camera Enable/disable legacy camera support' is selected and press the 'Enter' key.
+'Legacy Camera Enable/disable legacy camera support' が選択されていることを確認し 'Enter' キーを押します。
 
-![legacy camera selected](images/enable-legacy.png)
+![レガシーカメラが選択された状態](images/enable-legacy.png)
 
-Use the cursor keys to select `<Yes>` and press the 'Enter' key
+カーソルキーで `<Yes>` を選択し、 'Enter' キーを押します。
 
-Press 'Enter' again to confirm
+もう一度 'Enter' を押して確認します。
 
-![window with Ok highlighted for legacy camera support](images/ok.png)
+![レガシーカメラサポートについて表示する [OK] がハイライトされた画面](images/ok.png)
 
-Use the cursor keys to select `<Finish>`
+カーソルキーで `<Finish>` を選択します。
 
-![finish highlighted](images/finish.png)
+![[Finish] がハイライトされた状態](images/finish.png)
 
-Press 'Enter' to reboot.
+'Enter' を押して再起動します。
 
-![restart selected](images/reboot.png)
+![再起動を選択](images/reboot.png)
 
